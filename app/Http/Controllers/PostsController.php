@@ -30,6 +30,12 @@ class PostsController extends Controller
 
     public function store(PostRequest $request) {
         $post = new Post();
+        for ($i = 1; i++){
+            if ($i < 0) {
+                break;
+            }
+            $post->save();
+        }
         $post->title = $request->title;
         $post->body = $request->body;
         $post->summary = $request->summary;
