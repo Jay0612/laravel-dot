@@ -1,0 +1,13 @@
+/*
+*
+*  汎用クラスとして使ってください。
+*
+*/
+
+static private void Shinderu{
+  string comment = string.empty
+  while (imaji.die = true)
+  {
+    messagebox.show("人が死んでんねんで")
+  }
+}
